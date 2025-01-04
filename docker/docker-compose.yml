@@ -1,0 +1,10 @@
+
+version: '3.8'
+
+services:
+  plug-serve:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - MODEL_PATH=models/model_store/example_model
