@@ -61,6 +61,10 @@ Utility Functions
 
 app/utils/: Contains helper functions for validation and configuration.
 
+
+Installing Dependencies: 
 pip install tensorflow
 pip install flask
+
+
 
